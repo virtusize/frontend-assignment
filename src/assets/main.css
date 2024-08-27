@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+  h3 {
+    @apply text-3xl;
+  }
+  h4 {
+    @apply text-2xl;
+  }
+  h5 {
+    @apply text-xl;
+  }
+  h6 {
+    @apply text-lg;
+  }
+  p {
+    @apply text-base;
+  }
+}
+
+
+/* containers and dropdowns */
+
+  .client__nav {
+    vertical-align: top;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .client__image, .client__information {
+    display: inline-block;
+    margin: 15px;
+    vertical-align: text-top;
+  }
+
+  .client__buttons {
+    position: relative;
+  }
+
+  .dropdown__content {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    min-width: 120px;
+    z-index: 1000; /* Ensure dropdown appears above other content */
+  }
+
+  .dropdown__content ul {
+  list-style: none;
+  }
+
+  .dropdown__content li {
+  padding: 10px;
+  cursor: pointer;
+  }
+
+  .dropdown__content li:hover {
+  background-color: #f0f0f0;
+
+  }
+
+/* Forms */
+ 
+.form__field {
+  padding: 5px;
+}
+
+.form__label, .form__input {
+  display: block;
+}
+
+.form__input {
+  width: 100%;
+  border: 2px solid rgba(171, 170, 170, 0.279);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.form__label {
+  font-weight: bold;
+}
+
+.form__button {
+  background-color: rgba(0, 140, 255, 0.626);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+/* Login */
+
+.login__container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.login__field, 
+.form__field {
+  margin: 5px;
+}
+
+.login__label,
+.login__input {
+  display: inline;
+  vertical-align: middle;
+}
+
+.login__label {
+  margin-right: 10px;
+}
+
+.login__button, .form__button {
+  display: block;
+  width: 100%;
+}
+
+/* Table */
+
+.table__pagination {
+  margin: 10px 5px 0 5px;
+  padding: 10px 5px 0 5px;
+  display: flex;
+  justify-content: end;
+}
+
+.table__pagination__button {
+  margin: 5px;
+}
+
+.table__button {
+  margin: 2px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+th, td {
+  margin: 2px;
+  padding: 5px 10px;
+  min-width: 100px;
+  max-width: 150px;
+  text-align: left;
+}
+
+
+
