@@ -1,81 +1,129 @@
 {
   "clients": [
     {
-      "id": "0",
-      "gender": "female",
+      "picture": "http://placehold.it/32x32",
       "name": "Steele Burch",
       "company": "TELEPARK",
+      "gender": "Female",
       "age": 21,
-      "picture": "http://placehold.it/32x32",
-      "registered": "2021-05-31T02:20:58 -09:00",
+      "ageString": "21",
+      "registered": "2021-05-31 GMT+9",
       "currency": "USD",
-      "subscriptionCost": "1000.00"
+      "subscriptionCost": "1000",
+      "id": "0"
     },
     {
-      "id": "1",
-      "gender": "male",
-      "name": "Muriel Leonard",
-      "company": "CINESANCT",
-      "age": 35,
       "picture": "http://placehold.it/32x32",
-      "registered": "2015-04-20T07:24:27 -09:00",
+      "name": "Muriel Leonard",
+      "company": "CINESANCTUM",
+      "gender": "Male",
+      "age": 35,
+      "ageString": "35",
+      "registered": "2015-04-20T07:24:27-09:00",
       "currency": "INR",
-      "subscriptionCost": "2000.00"
+      "subscriptionCost": "2000",
+      "id": "1"
     },
     {
       "id": "2",
-      "gender": "female",
+      "gender": "Female",
       "name": "Joann Byers",
       "company": "SCENTRIC",
       "age": 37,
       "picture": "http://placehold.it/32x32",
-      "registered": "2019-05-19T12:47:34 -09:00",
+      "registered": "2019-05-19T12:47:34-09:00",
       "currency": "Yen",
       "subscriptionCost": "20000.00"
     },
     {
       "id": "3",
-      "gender": "female",
+      "gender": "Female",
       "name": "Hinton Hensley",
       "company": "SONIQUE",
       "age": 23,
       "picture": "http://placehold.it/32x32",
-      "registered": "2014-04-22T07:16:12 -09:00",
+      "registered": "2014-04-22T07:16:12-09:00",
       "currency": "Yen",
       "subscriptionCost": "2000.00"
     },
     {
       "id": "4",
-      "gender": "male",
+      "gender": "Male",
       "name": "Louella Thomas",
       "company": "KOG",
       "age": 38,
       "picture": "http://placehold.it/32x32",
-      "registered": "2021-05-01T06:15:25 -09:00",
+      "registered": "2021-05-01T06:15:25-09:00",
       "currency": "CAD",
       "subscriptionCost": "500.00"
     },
     {
       "id": "5",
-      "gender": "female",
+      "gender": "Female",
       "name": "Sykes Mueller",
       "company": "GENEKOM",
       "age": 28,
       "picture": "http://placehold.it/32x32",
-      "registered": "2023-03-23T05:40:50 -09:00",
+      "registered": "2023-03-23T05:40:50-09:00",
       "currency": "USD",
       "subscriptionCost": "500.00"
     },
     {
       "id": "6",
-      "gender": "male",
+      "gender": "Male",
       "name": "Barron Bowen",
       "company": "EBIDCO",
       "age": 38,
       "picture": "http://placehold.it/32x32",
-      "registered": "2019-10-18T07:26:00 -09:00",
+      "registered": "2019-10-18T07:26:00-09:00",
       "currency": "SGD",
       "subscriptionCost": "500.00"
+    },
+    {
+      "picture": "http://placehold.it/32x32",
+      "name": "German Manalili",
+      "company": "Virtusize",
+      "gender": "Male",
+      "age": 0,
+      "ageString": "0",
+      "registered": "2025-07-15 GMT+9",
+      "currency": "PHP",
+      "subscriptionCost": "1000",
+      "id": "ce25"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "gmanalili@virtusize.com",
+      "password": "Virtusize2025*",
+      "token": "fake-token-never-expires-1",
+      "created_at": "2024-06-10T12:00:00Z",
+      "updated_at": "2024-06-10T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "email": "gaguinaldo@virtusize.com",
+      "password": "Virtusize2025*",
+      "token": "fake-token-never-expires-2",
+      "created_at": "2024-06-10T12:05:00Z",
+      "updated_at": "2024-06-10T12:05:00Z"
+    },
+    {
+      "id": "3",
+      "email": "jmaico@virtusize.com",
+      "password": "Virtusize2025*",
+      "token": "fake-token-never-expires-3",
+      "created_at": "2024-06-10T12:10:00Z",
+      "updated_at": "2024-06-10T12:10:00Z"
+    },
+    {
+      "id": "4",
+      "email": "adelacruz@virtusize.com",
+      "password": "Virtusize2025*",
+      "token": "fake-token-never-expires-4",
+      "created_at": "2024-06-10T12:15:00Z",
+      "updated_at": "2024-06-10T12:15:00Z"
     }
   ]
 }

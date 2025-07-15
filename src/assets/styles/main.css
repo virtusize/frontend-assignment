@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('@/assets/fonts/Segoe_UI_Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Segoe UI Light', sans-serif;
+}
