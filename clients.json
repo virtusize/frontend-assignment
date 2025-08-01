@@ -1,17 +1,6 @@
 {
   "clients": [
     {
-      "id": "0",
-      "gender": "female",
-      "name": "Steele Burch",
-      "company": "TELEPARK",
-      "age": 21,
-      "picture": "http://placehold.it/32x32",
-      "registered": "2021-05-31T02:20:58 -09:00",
-      "currency": "USD",
-      "subscriptionCost": "1000.00"
-    },
-    {
       "id": "1",
       "gender": "male",
       "name": "Muriel Leonard",
@@ -76,6 +65,28 @@
       "registered": "2019-10-18T07:26:00 -09:00",
       "currency": "SGD",
       "subscriptionCost": "500.00"
+    }
+  ],
+  "users": [
+    {
+      "id": "b674",
+      "username": "usertesthehe",
+      "password": "cjswoshrdu"
+    },
+    {
+      "id": "7",
+      "username": "testuser",
+      "password": "newpass123"
+    },
+    {
+      "id": "eec8",
+      "username": "testuser123",
+      "password": "securepass"
+    },
+    {
+      "id": "05c4",
+      "username": "user_1753976432042",
+      "password": "securepass"
     }
   ]
 }
