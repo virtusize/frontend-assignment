@@ -1,0 +1,18 @@
+<div class="header">
+  <h2>Welcome, {{ userName }}</h2>
+  <button mat-stroked-button class="logout" (click)="logout()">Logout</button>
+</div>
+
+<mat-divider class="divider"></mat-divider>
+
+<div class="grid-wrapper">
+  <ag-grid-angular
+    class="ag-theme-alpine"
+    style="width: 100%; height: calc(100vh - 130px);"
+    [rowData]="clients"
+    [columnDefs]="columnDefs"
+    [gridOptions]="gridOptions"
+    [pagination]="true"
+    [paginationPageSize]="10">
+  </ag-grid-angular>
+</div>

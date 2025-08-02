@@ -1,4 +1,12 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@virtusize.com",
+      "password": "Admin@123",
+      "name": "Virtusize Admin"
+    }
+  ],
   "clients": [
     {
       "id": "0",
