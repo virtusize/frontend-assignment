@@ -1,4 +1,12 @@
 {
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@virtusize.com",
+      "password": "Admin@123",
+      "name": "Virtusize Admin"
+    }
+  ],
   "clients": [
     {
       "id": "0",
@@ -76,6 +84,50 @@
       "registered": "2019-10-18T07:26:00 -09:00",
       "currency": "SGD",
       "subscriptionCost": "500.00"
+    },
+    {
+      "name": "RaahimTest",
+      "company": "GAP",
+      "age": "45",
+      "gender": "Male",
+      "picture": "https://via.placeholder.com/32",
+      "registered": "2025-08-03",
+      "currency": "USD",
+      "subscriptionCost": "110",
+      "id": "7"
+    },
+    {
+      "id": "11",
+      "name": "Raahim",
+      "company": "Adidas",
+      "age": "321",
+      "gender": "Male",
+      "picture": "https://via.placeholder.com/32",
+      "registered": "2025-08-30",
+      "currency": "GBP",
+      "subscriptionCost": "20000"
+    },
+    {
+      "id": "12",
+      "name": "RaahimTest3",
+      "company": "Ralph Lauren",
+      "age": "14",
+      "gender": "male",
+      "picture": "https://via.placeholder.com/32",
+      "registered": "2025-08-10",
+      "currency": "USD",
+      "subscriptionCost": "20000"
+    },
+    {
+      "id": "12",
+      "name": "Test5",
+      "company": "Onitsuka",
+      "age": "5",
+      "gender": "female",
+      "picture": "https://via.placeholder.com/32",
+      "registered": "2025-11-03",
+      "currency": "YEN",
+      "subscriptionCost": "14000000"
     }
   ]
 }

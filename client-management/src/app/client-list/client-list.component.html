@@ -1,0 +1,23 @@
+<div class="header">
+  <h2>Welcome, {{ userName }}</h2>
+  <button mat-stroked-button class="logout" (click)="logout()">Logout</button>
+</div>
+
+<mat-divider class="divider"></mat-divider>
+
+<div class="grid-wrapper">
+  <div class="client-actions">
+    <button mat-flat-button color="primary" (click)="openClientDialog('add')">Add Client</button>
+  </div>
+
+  <div class="grid-container">
+    <ag-grid-angular
+      class="ag-theme-alpine"
+      [rowData]="clients"
+      [columnDefs]="columnDefs"
+      [gridOptions]="gridOptions"
+      [pagination]="true"
+      [paginationPageSize]="10">
+    </ag-grid-angular>
+  </div>
+</div>
