@@ -6,13 +6,18 @@
 <mat-divider class="divider"></mat-divider>
 
 <div class="grid-wrapper">
-  <ag-grid-angular
-    class="ag-theme-alpine"
-    style="width: 100%; height: calc(100vh - 130px);"
-    [rowData]="clients"
-    [columnDefs]="columnDefs"
-    [gridOptions]="gridOptions"
-    [pagination]="true"
-    [paginationPageSize]="10">
-  </ag-grid-angular>
+  <div class="client-actions">
+    <button mat-flat-button color="primary" (click)="openClientDialog('add')">Add Client</button>
+  </div>
+
+  <div class="grid-container">
+    <ag-grid-angular
+      class="ag-theme-alpine"
+      [rowData]="clients"
+      [columnDefs]="columnDefs"
+      [gridOptions]="gridOptions"
+      [pagination]="true"
+      [paginationPageSize]="10">
+    </ag-grid-angular>
+  </div>
 </div>

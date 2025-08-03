@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { ClientListComponent } from './client-list/client-list.component';
 import { LoginComponent } from './login/login.component';
 import { ClientFormComponent } from './client-form/client-form.component';
-import { ClientDetailComponent } from './client-detail/client-detail.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
@@ -17,6 +16,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { HttpClientModule } from '@angular/common/http';
 import { AgGridModule } from 'ag-grid-angular';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ActionButtonRendererComponent } from './action-button-renderer/action-button-renderer.component';
 
 
 @NgModule({
@@ -25,7 +26,7 @@ import { AgGridModule } from 'ag-grid-angular';
     LoginComponent,
     ClientListComponent,
     ClientFormComponent,
-    ClientDetailComponent
+    ActionButtonRendererComponent
   ],
   imports: [
     BrowserModule,
@@ -41,6 +42,7 @@ import { AgGridModule } from 'ag-grid-angular';
     ReactiveFormsModule,
     AgGridModule,
     FormsModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
