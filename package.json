@@ -1,16 +1,29 @@
 {
-  "name": "virtusize-assignment",
-  "version": "1.0.0",
-  "description": "A frontend coding challenge for Virtusize Frontend team",
-  "main": "index.js",
+  "name": "frontend-assignment",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "",
-    "api": "json-server --watch clients.json --port 4090",
-    "test": ""
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "api": "json-server --watch clients.json --port 3000"
   },
-  "author": "virtusize",
-  "license": "UNLICENSED",
   "dependencies": {
-    "json-server": "^1.0.0-beta.2"
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@fortawesome/vue-fontawesome": "^3.1.1",
+    "currency-codes": "^2.2.0",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.7.0",
+    "json-server": "^1.0.0-beta.3",
+    "sass": "^1.90.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.0",
+    "vue-tsc": "^3.0.5"
   }
 }

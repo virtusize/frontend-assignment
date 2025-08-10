@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" >
+  <!-- User circle (head) -->
+  <circle cx="32" cy="18" r="10" stroke="#2C3E50" stroke-width="3" fill="#3498DB"/>
+
+  <!-- User shoulders/body -->
+  <path d="M18 50c0-7 28-7 28 0v6H18v-6z" fill="#3498DB" stroke="#2C3E50" stroke-width="3" />
+
+  <!-- Briefcase body -->
+  <rect x="14" y="34" width="36" height="18" rx="3" ry="3" fill="#2980B9" stroke="#2C3E50" stroke-width="3"/>
+
+  <!-- Briefcase handle -->
+  <rect x="24" y="28" width="16" height="8" rx="2" ry="2" fill="#3498DB" stroke="#2C3E50" stroke-width="3"/>
+</svg>

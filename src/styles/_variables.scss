@@ -1,0 +1,61 @@
+$primary: #007bff; // blue
+$primary-dark: #0056b3; // darker blue for hover
+$primary-darker: #004494; // even darker blue for focus outline
+
+$secondary: #e0e0e0; // gray light
+$secondary-hover: #cacaca; // gray hover
+
+$danger: #dc3545; // red
+$danger-hover: #b1271b; // darker red for hover
+
+$background-color: #f5f7fa; // page background
+$background-white: #fff;
+
+$text-color: #333;
+$text-color-dark: #555;
+$text-color-light: #777;
+
+$border-color: #ccc;
+$border-light: #ddd;
+$border-lighter: #f1f1f1;
+
+$modal-overlay-bg: rgba(0, 0, 0, 0.4);
+
+$input-focus-color: $primary; // blue
+$input-focus-shadow: rgba(0, 123, 255, 0.4); // semi-transparent blue
+
+$dropdown-hover-bg: #f0f0f0;
+
+$nav-border: #eee;
+
+:root {
+  --primary: #{$primary};
+  --primary-dark: #{$primary-dark};
+  --primary-darker: #{$primary-darker};
+
+  --secondary: #{$secondary};
+  --secondary-hover: #{$secondary-hover};
+
+  --danger: #{$danger};
+  --danger-hover: #{$danger-hover};
+
+  --background-color: #{$background-color};
+  --background-white: #{$background-white};
+
+  --text-color: #{$text-color};
+  --text-color-dark: #{$text-color-dark};
+  --text-color-light: #{$text-color-light};
+
+  --border-color: #{$border-color};
+  --border-light: #{$border-light};
+  --border-lighter: #{$border-lighter};
+
+  --modal-overlay-bg: #{$modal-overlay-bg};
+
+  --input-focus-color: #{$input-focus-color};
+  --input-focus-shadow: #{$input-focus-shadow};
+
+  --dropdown-hover-bg: #{$dropdown-hover-bg};
+
+  --nav-border: #{$nav-border};
+}
